@@ -1,0 +1,697 @@
+{
+    "quotes": [
+        {
+            "text": "A programming language is for thinking about programs, not for expressing programs you've already thought of. It should be a pencil, not a pen.",
+            "author": "Paul Graham"
+        },
+        {
+            "text": "It's hard to say exactly what it is about face-to-face contact that makes deals happen, but whatever it is, it hasn't yet been duplicated by technology.",
+            "author": "Paul Graham"
+        },
+        {
+            "text": "Dressing up is inevitably a substitute for good ideas. It is no coincidence that technically inept business types are known as 'suits'.",
+            "author": "Paul Graham"
+        },
+        {
+            "text": "Everyone by now presumably knows about the danger of premature optimization. I think we should be just as worried about premature design - designing too early what a program should do.",
+            "author": "Paul Graham"
+        },
+        {
+            "text": "For the most ambitious young people, the corporate ladder is obsolete.",
+            "author": "Paul Graham"
+        },
+        {
+            "text": "I get a lot of criticism for telling founders to focus first on making something great, instead of worrying about how to make money. And yet that is exactly what Google did. And Apple, for that matter. You'd think examples like that would be enough to convince people.",
+            "author": "Paul Graham"
+        },
+        {
+            "text": "There are plenty of smart people who get nowhere.",
+            "author": "Paul Graham"
+        },
+        {
+            "text": "If you could replace high-school yearbooks, that could be a lot of money. It's so clearly waiting for someone to come along.",
+            "author": "Paul Graham"
+        },
+        {
+            "text": "If you imagine someone with 100 percent determination and 100 percent intelligence, you can discard a lot of intelligence before they stop succeeding. But if you start discarding determination, you very quickly get an ineffectual and perpetual grad student.",
+            "author": "Paul Graham"
+        },
+        {
+            "text": "Some people just get what they want in the world.",
+            "author": "Paul Graham"
+        },
+        {
+            "text": "Startups often have to do dubious things.",
+            "author": "Paul Graham"
+        },
+        {
+            "text": "Like having a child, running a startup is the sort of experience that's hard to imagine unless you've done it yourself.",
+            "author": "Paul Graham"
+        },
+        {
+            "text": "I suppose I should learn Lisp, but it seems so foreign.",
+            "author": "Paul Graham"
+        },
+        {
+            "text": "Small-business customers are very conservative and very cheap. We don't have to explain ourselves for the most part.",
+            "author": "Paul Graham"
+        },
+        {
+            "text": "We don't have to go that far to sell our beer because our immediate accounts sell so much. Places that sold 10 cases before, now they're selling 30.",
+            "author": "Paul Graham"
+        },
+        {
+            "text": "In the startup world, 'not working' is normal.",
+            "author": "Paul Graham"
+        },
+        {
+            "text": "If you really understand something, you can say it in the fewest words, instead of thrashing about.",
+            "author": "Paul Graham"
+        },
+        {
+            "text": "When Facebook first started, and it was just a social directory for undergrads at Harvard, it would have seemed like such a bad startup idea, like some student side project.",
+            "author": "Paul Graham"
+        },
+        {
+            "text": "Empirically the way you get a product visionary as CEO is for him to found the company and not get fired.",
+            "author": "Paul Graham"
+        },
+        {
+            "text": "What I tell founders is not to sweat the business model too much at first. The most important task at first is to build something people want. If you don't do that, it won't matter how clever your business model is.",
+            "author": "Paul Graham"
+        },
+        {
+            "text": "One startup I dream of funding is the one that kills the record companies.",
+            "author": "Paul Graham"
+        },
+        {
+            "text": "You know your business model is broken when you're suing your customers.",
+            "author": "Paul Graham"
+        },
+
+
+        {
+            "text": "A brand for a company is like a reputation for a person. You earn reputation by trying to do hard things well.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "The best customer service is if the customer doesn't need to call you, doesn't need to talk to you. It just works.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "If you can't tolerate critics, don't do anything new or interesting.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "We see our customers as invited guests to a party, and we are the hosts. It's our job every day to make every important aspect of the customer experience a little bit better.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "What we need to do is always lean into the future; when the world changes around you and when it changes against you - what used to be a tail wind is now a head wind - you have to lean into that and figure out what to do because complaining isn't a strategy.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "I think frugality drives innovation, just like other constraints do. One of the only ways to get out of a tight box is to invent your way out.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "We've had three big ideas at Amazon that we've stuck with for 18 years, and they're the reason we're successful: Put the customer first. Invent. And be patient.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "What's dangerous is not to evolve.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "The common question that gets asked in business is, 'why?' That's a good question, but an equally valid question is, 'why not?'",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "If you do build a great experience, customers tell each other about that. Word of mouth is very powerful.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "I believe you have to be willing to be misunderstood if you're going to innovate.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "There are two ways to extend a business. Take inventory of what you're good at and extend out from your skills. Or determine what your customers need and work backward, even if it requires learning new skills. Kindle is an example of working backward.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "The human brain is an incredible pattern-matching machine.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "Life's too short to hang out with people who aren't resourceful.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "If you're competitor-focused, you have to wait until there is a competitor doing something. Being customer-focused allows you to be more pioneering.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "If your customer base is aging with you, then eventually you are going to become obsolete or irrelevant. You need to be constantly figuring out who are your new customers and what are you doing to stay forever young.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "There'll always be serendipity involved in discovery.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "Great industries are never made from single companies. There is room in space for a lot of winners.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "The thing that motivates me is a very common form of motivation. And that is, with other folks counting on me, it's so easy to be motivated.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "Real estate is the key cost of physical retailers. That's why there's the old saw: location, location, location.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "It's not an experiment if you know it's going to work.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "What consumerism really is, at its worst is getting people to buy things that don't actually improve their lives.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "People will visit Mars, they will settle mars, and we should because it's cool.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "Because, you know, resilience - if you think of it in terms of the Gold Rush, then you'd be pretty depressed right now because the last nugget of gold would be gone. But the good thing is, with innovation, there isn't a last nugget. Every new thing creates two new questions and two new opportunities.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "If you only do things where you know the answer in advance, your company goes away.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "Amazon.com strives to be the e-commerce destination where consumers can find and discover anything they want to buy online.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "I strongly believe that missionaries make better products. They care more. For a missionary, it's not just about the business. There has to be a business, and the business has to make sense, but that's not why you do it. You do it because you have something meaningful that motivates you.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "If you don't understand the details of your business you are going to fail.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "I don't think that you can invent on behalf of customers unless you're willing to think long-term, because a lot of invention doesn't work. If you're going to invent, it means you're going to experiment, and if you're going to experiment, you're going to fail, and if you're going to fail, you have to think long term.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "The killer app that got the world ready for appliances was the light bulb. So the light bulb is what wired the world. And they weren't thinking about appliances when they wired the world. They were really thinking about - they weren't putting electricity into the home. They were putting lighting into the home.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "My own view is that every company requires a long-term view.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "My view is there's no bad time to innovate.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "I've always been at the intersection of computers and whatever they can revolutionize.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "What we want to be is something completely new. There is no physical analog for what Amazon.com is becoming.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "I'm a genetic optimist.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "People forget already how much utility they get out of the Internet - how much utility they get out of e-mail, how much utility they get out of even simple things like brochureware online.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "Part of company culture is path-dependent - it's the lessons you learn along the way.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "Humans are unbelievably data efficient. You don't have to drive 1 million miles to drive a car, but the way we teach a self-driving car is have it drive a million miles.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "Beautiful speech doesn't need protection, it's ugly speech that needs protection. We have these cultural norms that allow people to say really ugly things. You don't have to invite them to your dinner party, but you should let them say it.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "You know, we love stories and we love narrative; we love to get lost in an author's world.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "Market leadership can translate directly to higher revenue, higher profitability, greater capital velocity, and correspondingly stronger returns on invested capital.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "Millions of people were inspired by the Apollo Program. I was five years old when I watched Apollo 11 unfold on television, and without any doubt it was a big contributor to my passions for science, engineering, and exploration.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "We expect all our businesses to have a positive impact on our top and bottom lines. Profitability is very important to us or we wouldn't be in this business.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "The one thing that offends me the most is when I walk by a bank and see ads trying to convince people to take out second mortgages on their home so they can go on vacation. That's approaching evil.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "There are two kinds of companies, those that work to try to charge more and those that work to charge less. We will be the second.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "It is very difficult to get people to focus on the most important things when you're in boom times.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "I know Elon, we're very like minded in many ways. We're not conceptual twins. One thing I want us to do is go to Mars, but for me it's one thing. He's singularly focused on that. I think motivation wise, for me I don't find that Plan B idea motivating. I don't want a plan B for Earth, I want Plan B to make sure Plan A works.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "I have won this lottery. It's a gigantic lottery, and it's called Amazon.com. And I'm using my lottery winnings to push us a little further into space.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "A company shouldn't get addicted to being shiny, because shiny doesn't last.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "I like having the digital camera on my smart phone, but I also like having a dedicated camera for when I want to take real pictures.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "You don't want to negotiate the price of simple things you buy every day.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "You're not going to make Hemingway better by adding animations.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "Strip malls are history.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "You want your customers to value your service.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "Infrastructure web services had to happen.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "I don't want to use my creative energy on somebody else's user interface.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "I don't know about you, but most of my exchanges with cashiers are not that meaningful.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "You know you're not anonymous on our site. We're greeting you by name, showing you past purchases, to the degree that you can arrange to have transparency combined with an explanation of what the consumer benefit is.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "When it comes to space, I see it as my job, I'm building infrastructure the hard way. I'm using my resources to put in place heavy lifting infrastructure so the next generation of people can have a dynamic, entrepreneurial explosion into space.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "I'm a big fan of all-you-can-eat plans, because they're simpler for customers.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "Cultures, for better or worse, are very stable.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "One of the things it was obvious you could do with an online store is have a much more complete selection.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "The book is not really the container for the book. The book itself is the narrative. It's the thing that people create.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "For many people, extended reading sessions on an LCD display cause eyestrain.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "Mediocre theoretical physicists make no progress. They spend all their time understanding other people's progress.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "I'm skeptical of any mission that has advertisers at its centerpiece.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "But there's so much kludge, so much terrible stuff, we are at the 1908 Hurley washing machine stage with the Internet. That's where we are. We don't get our hair caught in it, but that's the level of primitiveness of where we are. We're in 1908.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "I think there are going to be a bunch of tablet-like devices. It's really a different product category.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "I very much believe the Internet is indeed all it is cracked up to be.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "I think that, ah, I'm a very goofy sort of person in many ways.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "On the Internet, companies are scale businesses, characterized by high fixed costs and relatively low variable costs. You can be two sizes: You can be big, or you can be small. It's very hard to be medium. A lot of medium-sized companies had the financing rug pulled out from under them before they could get big.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "Ebooks had to happen.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "I think the definition of a book is changing.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "For people who are readers, reading is important to them.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "I'm skeptical that the novel will be 're-invented.'",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "Percentage margins don't matter. What matters always is dollar margins: the actual dollar amount. Companies are valued not on their percentage margins, but on how many dollars they actually make, and a multiple of that.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "I went to Princeton specifically to study physics.",
+            "author": "Jeff Bezos"
+        },
+        {
+            "text": "The key thing about a book is that you lose yourself in the author's world.",
+            "author": "Jeff Bezos"
+        },
+
+
+        {
+            "text": "Someone is sitting in the shade today because someone planted a tree a long time ago.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "Rule No.1: Never lose money. Rule No.2: Never forget rule No.1.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "Risk comes from not knowing what you're doing.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "In the business world, the rearview mirror is always clearer than the windshield.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "Price is what you pay. Value is what you get.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "It takes 20 years to build a reputation and five minutes to ruin it. If you think about that, you'll do things differently.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "Chains of habit are too light to be felt until they are too heavy to be broken.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "I always knew I was going to be rich. I don't think I ever doubted it for a minute.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "Predicting rain doesn't count. Building arks does.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "It's better to hang out with people better than you. Pick out associates whose behavior is better than yours and you'll drift in that direction.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "Only when the tide goes out do you discover who's been swimming naked.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "Derivatives are financial weapons of mass destruction.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "I buy expensive suits. They just look cheap on me.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "The only way to get love is to be lovable. It's very irritating if you have a lot of money. You'd like to think you could write a check: 'I'll buy a million dollars' worth of love.' But it doesn't work that way. The more you give love away, the more you get.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "The first rule is not to lose. The second rule is not to forget the first rule.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "Your premium brand had better be delivering something special, or it's not going to get the business.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "The best thing I did was to choose the right heroes.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "In the 20th century, the United States endured two world wars and other traumatic and expensive military conflicts; the Depression; a dozen or so recessions and financial panics; oil shocks; a flu epidemic; and the resignation of a disgraced president. Yet the Dow rose from 66 to 11,497.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "We simply attempt to be fearful when others are greedy and to be greedy only when others are fearful.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "Only buy something that you'd be perfectly happy to hold if the market shut down for 10 years.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "Look at market fluctuations as your friend rather than your enemy; profit from folly rather than participate in it.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "The investor of today does not profit from yesterday's growth.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "Time is the friend of the wonderful company, the enemy of the mediocre.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "Our favorite holding period is forever.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "Today people who hold cash equivalents feel comfortable. They shouldn't. They have opted for a terrible long-term asset, one that pays virtually nothing and is certain to depreciate in value.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "When you combine ignorance and leverage, you get some pretty interesting results.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "I bought a company in the mid-'90s called Dexter Shoe and paid $400 million for it. And it went to zero. And I gave about $400 million worth of Berkshire stock, which is probably now worth $400 billion. But I've made lots of dumb decisions. That's part of the game.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "You only have to do a very few things right in your life so long as you don't do too many things wrong.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "When a management with a reputation for brilliance tackles a business with a reputation for bad economics, it is the reputation of the business that remains intact.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "Wall Street is the only place that people ride to in a Rolls Royce to get advice from those who take the subway.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "I never attempt to make money on the stock market. I buy on the assumption that they could close the market the next day and not reopen it for five years.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "Beware of geeks bearing formulas.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "Why not invest your assets in the companies you really like? As Mae West said, 'Too much of a good thing can be wonderful'.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "Should you find yourself in a chronically leaking boat, energy devoted to changing vessels is likely to be more productive than energy devoted to patching leaks.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "It's far better to buy a wonderful company at a fair price than a fair company at a wonderful price.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "The rich are always going to say that, you know, just give us more money and we'll go out and spend more and then it will all trickle down to the rest of you. But that has not worked the last 10 years, and I hope the American public is catching on.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "If anything, taxes for the lower and middle class and maybe even the upper middle class should even probably be cut further. But I think that people at the high end - people like myself - should be paying a lot more in taxes. We have it better than we've ever had it.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "There seems to be some perverse human characteristic that likes to make easy things difficult.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "If you get to my age in life and nobody thinks well of you, I don't care how big your bank account is, your life is a disaster.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "The smarter the journalists are, the better off society is. For to a degree, people read the press to inform themselves - and the better the teacher, the better the student body.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "Risk is a part of God's game, alike for men and nations.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "We believe that according the name 'investors' to institutions that trade actively is like calling someone who repeatedly engages in one-night stands a 'romantic.'",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "The big question about how people behave is whether they've got an Inner Scorecard or an Outer Scorecard. It helps if you can be satisfied with an Inner Scorecard.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "The only time to buy these is on a day with no 'y' in it.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "I am a huge bull on this country. We will not have a double-dip recession at all. I see our businesses coming back almost across the board.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "I don't look to jump over 7-foot bars: I look around for 1-foot bars that I can step over.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "A public-opinion poll is no substitute for thought.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "Basically, when you get to my age, you'll really measure your success in life by how many of the people you want to have love you actually do love you.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "If a business does well, the stock eventually follows.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "Wide diversification is only required when investors do not understand what they are doing.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "If past history was all there was to the game, the richest people would be librarians.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "Of the billionaires I have known, money just brings out the basic traits in them. If they were jerks before they had money, they are simply jerks with a billion dollars.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "There are 309 million people out there that are trying to improve their lot in life. And we've got a system that allows them to do it.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "I sent one e-mail in my life. I sent it to Jeff Raikes at Microsoft, and it ended up in court in Minneapolis, so I am one for one.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "We've used up a lot of bullets. And we talk about stimulus. But the truth is, we're running a federal deficit that's 9 percent of GDP. That is stimulative as all get out. It's more stimulative than any policy we've followed since World War II.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "You have no ability, if you're a financial institution and you're threatened with criminal prosecution, you have no ability to negotiate.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "Let blockheads read what blockheads wrote.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "I think the most important factor in getting out of the recession actually is just the regenerative capacity of - of American capitalism.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "We always live in an uncertain world. What is certain is that the United States will go forward over time.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "I think that both parties should declare the debt limit as a political weapon of mass destruction which can't be used. I mean, it is silly to have a country that has 237 years building up its reputation and then have people threaten to tear it down because they're not getting some other matter.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "You know, people talk about this being an uncertain time. You know, all time is uncertain. I mean, it was uncertain back in - in 2007, we just didn't know it was uncertain. It was - uncertain on September 10th, 2001. It was uncertain on October 18th, 1987, you just didn't know it.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "Economic medicine that was previously meted out by the cupful has recently been dispensed by the barrel. These once unthinkable dosages will almost certainly bring on unwelcome after-effects. Their precise nature is anyone's guess, though one likely consequence is an onslaught of inflation.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "I would say the most satisfying thing actually is watching my three children each pick up on their own interests and work many more hours per week than most people that have jobs at trying to intelligently give away that money in fields that they particularly care about.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "You do things when the opportunities come along. I've had periods in my life when I've had a bundle of ideas come along, and I've had long dry spells. If I get an idea next week, I'll do something. If not, I won't do a damn thing.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "The business schools reward difficult complex behavior more than simple behavior, but simple behavior is more effective.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "We enjoy the process far more than the proceeds.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "It's never paid to bet against America. We come through things, but its not always a smooth ride.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "Value is what you get.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "I am quite serious when I say that I do not believe there are, on the whole earth besides, so many intensified bores as in these United States. No man can form an adequate idea of the real meaning of the word, without coming here.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "Americans are in a cycle of fear which leads to people not wanting to spend and not wanting to make investments, and that leads to more fear. We'll break out of it. It takes time.",
+            "author": "Warren Buffett"
+        },
+        {
+            "text": "We're still in a recession. We're not gonna be out of it for a while, but we will get out.",
+            "author": "Warren Buffett"
+        }
+    ]
+}
+
