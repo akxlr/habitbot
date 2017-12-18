@@ -208,14 +208,20 @@ def handle_raw(output):
             elif msg.startswith(COMMAND_PREFIX):
                 handle_command(msg[len(COMMAND_PREFIX):], o['user'])
 
-if __name__ == "__main__":
-    READ_WEBSOCKET_DELAY = 1
+
+def main():
     if slack_client.rtm_connect():
         print("HabitBot connected and running!")
         while True:
             # Handle messages
             try:
-                handle_raw(slack_client.rtm_read())
+                msg = slack_client.rtm_read()
+            except:
+                # Disconnected or something, process will be restarted by external monitor
+                return
+
+            try:
+                handle_raw(msg)
             except BotError as e:
                 send_msg("I can't do that. {}".format(e.message))
             except Exception as e:
@@ -225,6 +231,11 @@ if __name__ == "__main__":
             # Check for missed habits
             check_habits()
 
-            time.sleep(READ_WEBSOCKET_DELAY)
+            # 1 second wait
+            time.sleep(1)
     else:
         print("Connection failed. Invalid Slack token or bot ID?")
+
+if __name__ == "__main__":
+    main()
+
