@@ -201,7 +201,7 @@ def handle_command(command, user_id):
 
 def handle_raw(output):
     for o in output:
-        if o['type'] == 'message':
+        if o['type'] == 'message' and 'text' in o:
             msg = o['text']
             if msg == COMMAND_PREFIX:
                 send_msg(USAGE_STR)
