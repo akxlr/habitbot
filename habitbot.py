@@ -98,6 +98,9 @@ def in_window(ts, window_start, window_end):
     end = syd_to_server([int(x) for x in window_end.split(":")])
     today_start = datetime.datetime.now().replace(hour=start[0], minute=start[1], second=0, microsecond=0)
     today_end = datetime.datetime.now().replace(hour=end[0], minute=end[1], second=0, microsecond=0)
+    # If the time range is e.g. 21:00 - 03:00, then 21:00 refers to the previous day
+    if today_start >= today_end:
+        today_start = today_start - timedelta(days=1)
     return today_start <= datetime.datetime.fromtimestamp(ts) <= today_end
 
 @db_method
@@ -173,14 +176,30 @@ def get_user_name(user_id):
 def handle_command(command, user_id):
 
     fields = command.split()
-    if fields[0] == 'add':
+    if fields[0] == 'help':
+        send_msg(USAGE_STR)
+    elif fields[0] == 'add':
         # add <name> <window_start> <window_end> <penalty> <description>
+
+        # window_start and window_end may be specified in format XXX, XXXX, or XX:XX - convert to XX:XX
+        window = []
+        for w in [fields[2], fields[3]]:
+            if ':' in w:
+                window.append(w)
+            else:
+                if len(w) == 3:
+                    window.append('0{}:{}'.format(w[0], w[1:]))
+                elif len(w) == 4:
+                    window.append('{}:{}'.format(w[0:2], w[2:]))
+                else:
+                    raise BotError("Invalid time format '{}'. Use 'hh:mm'.".format(w))
+
         habit = {
             'name': fields[1],
             'user_id': user_id,
             'user_name': get_user_name(user_id),
-            'window_start': fields[2],
-            'window_end': fields[3],
+            'window_start': window[0],
+            'window_end': window[1],
             'penalty': fields[4],
             'description': ' '.join(fields[5:]),
         }
