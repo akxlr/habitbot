@@ -32,7 +32,15 @@ Example:
 
 SHAME_MSG = "😠 *SHAME! {user_name}, did you do {name} today? 😠* I expected to see a post between {window_start} and {window_end} saying '{prefix} done {name}'. The prescribed penalty for {user_name} is: *{penalty}*"
 
+EMAIL_FROM = 'HabitBot <admin@neliti.com>'
+EMAIL_FROM_PASSWORD = os.environ['HABIT_EMAIL_PASS']
+SHAME_EMAIL_SUBJECT = "{user_name} failed to post habit {name}!"
+SHAME_EMAIL_BODY =  "😠 *SHAME! {user_name}, did you do {name} today? 😠* I expected to see a post between {window_start} and {window_end} saying '{prefix} done {name}'. The prescribed penalty for {user_name} is: *{penalty}*"
+
 slack_client = SlackClient(SLACK_BOT_TOKEN)
+
+# When pledge is failed, these people will get an email
+SHAME_EMAILS = ['andrew.android.0@gmail.com', 'andrew@wrigley.io']
 
 class BotError(Exception):
     def __init__(self, message):
@@ -118,10 +126,11 @@ def check_habits(db):
 
         if mins_since_window_end <= CHECK_DELAY_SECONDS:
             # This habit's window just ended, check that it was completed
-            if not in_window(habit['last_completed'], habit['window_start'], habit['window_end']) and not habit['shamed']:
+            if not in_window(habit['last_completed'], habit['window_start'], habit['window_end']):
                 shame_msg = SHAME_MSG.format(**habit, prefix=COMMAND_PREFIX)
                 shamed.append(name)
                 send_msg(shame_msg)
+                send_emails(habit)
 
     for name in shamed:
         db['habits'][name]['shamed'] = True
@@ -163,6 +172,34 @@ def get_random_quote(db):
 
 def send_msg(msg):
     slack_client.api_call("chat.postMessage", channel=CHANNEL, text=msg, as_user=True)
+
+def send_emails(habit):
+    for email in SHAME_EMAILS:
+        send_email(EMAIL_FROM, EMAIL_FROM_PASSWORD, email, SHAME_EMAIL_SUBJECT.format(**habit),
+                   SHAME_EMAIL_BODY.format(**habit))
+
+# https://stackoverflow.com/a/12424439/692456
+def send_email(user, pwd, recipient, subject, body):
+    import smtplib
+
+    FROM = user
+    TO = recipient if type(recipient) is list else [recipient]
+    SUBJECT = subject
+    TEXT = body
+
+    # Prepare actual message
+    message = """From: %s\nTo: %s\nSubject: %s\n\n%s
+    """ % (FROM, ", ".join(TO), SUBJECT, TEXT)
+    try:
+        server = smtplib.SMTP("smtp.gmail.com", 587)
+        server.ehlo()
+        server.starttls()
+        server.login(user, pwd)
+        server.sendmail(FROM, TO, message)
+        server.close()
+    except:
+        print("Failed to send email!")
+
 
 def get_user_name(user_id):
     api_call = slack_client.api_call("users.list")
@@ -226,7 +263,6 @@ def handle_raw(output):
                 send_msg(USAGE_STR)
             elif msg.startswith(COMMAND_PREFIX):
                 handle_command(msg[len(COMMAND_PREFIX):], o['user'])
-
 
 def main():
     if slack_client.rtm_connect():
