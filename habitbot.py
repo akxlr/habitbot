@@ -192,7 +192,7 @@ def send_email(user, pwd, recipient, subject, body):
     message = """From: %s\nTo: %s\nSubject: %s\n\n%s
     """ % (FROM, ", ".join(TO), SUBJECT, TEXT)
 
-    server = smtplib.SMTP("smtp.gmail.com", 587)
+    server = smtplib.SMTP("smtp.zoho.com", 587)
     server.ehlo()
     server.starttls()
     server.login(user, pwd)
