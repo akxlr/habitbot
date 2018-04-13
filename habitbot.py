@@ -32,7 +32,7 @@ Example:
 
 SHAME_MSG = "😠 *SHAME! {user_name}, did you do {name} today? 😠* I expected to see a post between {window_start} and {window_end} saying '{prefix} done {name}'. The prescribed penalty for {user_name} is: *{penalty}*"
 
-EMAIL_FROM = 'HabitBot <admin{}neliti.com>'.format('@')
+EMAIL_FROM = 'admin{}neliti.com'.format('@')
 EMAIL_FROM_PASSWORD = os.environ['HABIT_EMAIL_PASS']
 SHAME_EMAIL_SUBJECT = "{user_name} failed to post habit {name}!"
 SHAME_EMAIL_BODY =  "😠 *SHAME! {user_name}, did you do {name} today? 😠* I expected to see a post between {window_start} and {window_end}. The prescribed penalty for {user_name} is: *{penalty}*"
