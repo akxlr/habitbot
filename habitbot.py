@@ -35,7 +35,7 @@ SHAME_MSG = "😠 *SHAME! {user_name}, did you do {name} today? 😠* I expected
 EMAIL_FROM = 'HabitBot <admin{}neliti.com>'.format('@')
 EMAIL_FROM_PASSWORD = os.environ['HABIT_EMAIL_PASS']
 SHAME_EMAIL_SUBJECT = "{user_name} failed to post habit {name}!"
-SHAME_EMAIL_BODY =  "😠 *SHAME! {user_name}, did you do {name} today? 😠* I expected to see a post between {window_start} and {window_end} saying '{prefix} done {name}'. The prescribed penalty for {user_name} is: *{penalty}*"
+SHAME_EMAIL_BODY =  "😠 *SHAME! {user_name}, did you do {name} today? 😠* I expected to see a post between {window_start} and {window_end}. The prescribed penalty for {user_name} is: *{penalty}*"
 
 slack_client = SlackClient(SLACK_BOT_TOKEN)
 
@@ -126,7 +126,7 @@ def check_habits(db):
 
         if mins_since_window_end <= CHECK_DELAY_SECONDS:
             # This habit's window just ended, check that it was completed
-            if not in_window(habit['last_completed'], habit['window_start'], habit['window_end']):
+            if not in_window(habit['last_completed'], habit['window_start'], habit['window_end']) and not habit['shamed']:
                 shame_msg = SHAME_MSG.format(**habit, prefix=COMMAND_PREFIX)
                 shamed.append(name)
                 send_msg(shame_msg)
@@ -139,6 +139,7 @@ def check_habits(db):
 @db_method
 def habit_done(db, habit_name):
     db['habits'][habit_name]['last_completed'] = time.time()
+    db['habits'][habit_name]['shamed'] = False
     return db
 
 @db_method
