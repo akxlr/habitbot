@@ -175,9 +175,11 @@ def send_msg(msg):
     slack_client.api_call("chat.postMessage", channel=CHANNEL, text=msg, as_user=True)
 
 def send_emails(habit):
-    for email in SHAME_EMAILS:
-        send_email(EMAIL_FROM, EMAIL_FROM_PASSWORD, email, SHAME_EMAIL_SUBJECT.format(**habit),
-                   SHAME_EMAIL_BODY.format(**habit))
+    # Disabled due to some bug causing infinite loop of email sending
+    print("TODO: Not sending emails, because I don't trust myself")
+    # for email in SHAME_EMAILS:
+    #     send_email(EMAIL_FROM, EMAIL_FROM_PASSWORD, email, SHAME_EMAIL_SUBJECT.format(**habit),
+    #                SHAME_EMAIL_BODY.format(**habit))
 
 # https://stackoverflow.com/a/12424439/692456
 def send_email(user, pwd, recipient, subject, body):
@@ -266,6 +268,7 @@ def handle_raw(output):
 def main():
     if slack_client.rtm_connect():
         print("HabitBot connected and running!")
+        send_msg("I'm back online!")
         while True:
             # Handle messages
             try:
